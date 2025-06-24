@@ -125,26 +125,25 @@ Basado en los resultados de tu análisis, escribe tus insights más importantes 
 
 Aquí tienes algunos ejemplos de hallazgos que podrías haber encontrado (ajusta según tus datos reales):
 
-**Impacto de los Descuentos:** Se observó que los productos con descuentos en el rango del 61-70% tienden a acumular la mayor cantidad de rating_count promedio y total, lo que sugiere un "punto óptimo" donde los descuentos son más efectivos para impulsar la popularidad. Los productos sin descuento o con descuentos mínimos muestran una popularidad significativamente menor.
-**Influencia de la Calificación:** Existe una fuerte correlación positiva entre la calificación promedio de un producto y su popularidad. Los productos con calificaciones entre 4.0 y 4.4 (Muy Bueno) son los principales impulsores del volumen total de rating_count.
-**Productos Estrella:** Las categorías como Electrónica (especialmente auriculares y cables HDMI) dominan el ranking de productos más populares, a menudo logrando esta popularidad con descuentos significativos.
-**Productos de Demanda Intrínseca:** Se identificaron productos como [Menciona 1 o 2 ejemplos específicos del Top 10 sin descuento] que alcanzan alta popularidad sin depender de descuentos, indicando una demanda fuerte basada en su valor intrínseco o necesidad.
-**Tendencias por Categoría:** Las categorías varían ampliamente en estrategia de precios y potencial de popularidad. Por ejemplo, la categoría Electronics|Headphones,Earbuds&Accessories|Headphones muestra la mayor popularidad total a pesar de no ser la más grande por número de productos.
+* **Impacto de los Descuentos:** Se observó que los productos con descuentos en el rango del 61-70% tienden a acumular la mayor cantidad de rating_count promedio y total, lo que sugiere un "punto óptimo" donde los descuentos son más efectivos para impulsar la popularidad. Los productos sin descuento o con descuentos mínimos muestran una popularidad significativamente menor.
+* **Influencia de la Calificación:** Existe una fuerte correlación positiva entre la calificación promedio de un producto y su popularidad. Los productos con calificaciones entre 4.0 y 4.4 (Muy Bueno) son los principales impulsores del volumen total de rating_count.
+* **Productos Estrella:** Las categorías como Electrónica (especialmente auriculares y cables HDMI) dominan el ranking de productos más populares, a menudo logrando esta popularidad con descuentos significativos.
+* **Productos de Demanda Intrínseca:** Se identificaron productos como [Menciona 1 o 2 ejemplos específicos del Top 10 sin descuento] que alcanzan alta popularidad sin depender de descuentos, indicando una demanda fuerte basada en su valor intrínseco o necesidad.
+* **Tendencias por Categoría:** Las categorías varían ampliamente en estrategia de precios y potencial de popularidad. Por ejemplo, la categoría Electronics|Headphones,Earbuds&Accessories|Headphones muestra la mayor popularidad total a pesar de no ser la más grande por número de productos.
 
 ## 🎯 Recomendaciones de Negocio
 
 Basado en tus hallazgos, formula recomendaciones accionables para una empresa.
-
-**Optimizar Estrategia de Descuentos:** Priorizar la aplicación de descuentos en el rango de 60-70% para productos seleccionados, monitoreando de cerca la respuesta en términos de popularidad y conversión.
-**Foco en la Calidad del Producto:** Invertir en mejorar la calidad y, por ende, las calificaciones promedio de los productos, ya que esto es un motor fundamental para la popularidad orgánica.
-**Análisis Categórico Continuo:** Realizar análisis detallados por categoría para adaptar las estrategias de precios y descuentos a las particularidades de cada segmento de mercado.
-Identificar Oportunidades para Productos sin Descuento: Promocionar los productos con alta demanda intrínseca que no necesitan descuentos, ya que representan una fuente de ingresos estable y potencialmente más rentable.
+* **Optimizar Estrategia de Descuentos:** Priorizar la aplicación de descuentos en el rango de 60-70% para productos seleccionados, monitoreando de cerca la respuesta en términos de popularidad y conversión.
+* **Foco en la Calidad del Producto:** Invertir en mejorar la calidad y, por ende, las calificaciones promedio de los productos, ya que esto es un motor fundamental para la popularidad orgánica.
+* **Análisis Categórico Continuo:** Realizar análisis detallados por categoría para adaptar las estrategias de precios y descuentos a las particularidades de cada segmento de mercado.
+* **Identificar Oportunidades para Productos sin Descuento:** Promocionar los productos con alta demanda intrínseca que no necesitan descuentos, ya que representan una fuente de ingresos estable y potencialmente más rentable.
 
 ## 🔮 Futuras Mejoras
 
-**Integrar Datos de Ventas Reales:** Si estuvieran disponibles, integrar datos de ventas transaccionales para una correlación más precisa con los descuentos y calificaciones.
-**Análisis de Sentimiento de Reseñas:** Utilizar Procesamiento de Lenguaje Natural (NLP) para analizar el contenido de review_content y review_title y obtener insights cualitativos sobre la satisfacción del cliente.
-**Modelado Predictivo:** Desarrollar modelos de Machine Learning para predecir la popularidad o el impacto en ventas de un producto basado en su precio, descuento y calificación inicial.
-**Análisis de Competencia:** Integrar datos de la competencia para comparar estrategias de precios y rendimiento.
+* **Integrar Datos de Ventas Reales:** Si estuvieran disponibles, integrar datos de ventas transaccionales para una correlación más precisa con los descuentos y calificaciones.
+* **Análisis de Sentimiento de Reseñas:** Utilizar Procesamiento de Lenguaje Natural (NLP) para analizar el contenido de review_content y review_title y obtener insights cualitativos sobre la satisfacción del cliente.
+* **Modelado Predictivo:** Desarrollar modelos de Machine Learning para predecir la popularidad o el impacto en ventas de un producto basado en su precio, descuento y calificación inicial.
+* **Análisis de Competencia:** Integrar datos de la competencia para comparar estrategias de precios y rendimiento.
 
 <!-- end list -->
