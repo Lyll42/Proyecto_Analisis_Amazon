@@ -47,7 +47,7 @@ e-commerce-sales-analysis/
 │   ├── 01_data_cleaning.ipynb                  # Limpieza y preprocesamiento de datos
 │   └── 02_sql_data_loading_and_exploration.ipynb # Carga a DB y análisis exploratorio SQL
 └── dashboards/
-└── amazon_sales_dashboard.pbix             # Archivo del dashboard de Power BI
+    └── amazon_sales_dashboard.pbix             # Archivo del dashboard de Power BI
 
 
 ## 🚀 Cómo Ejecutar el Proyecto
@@ -60,8 +60,9 @@ Abre tu terminal o Git Bash y ejecuta:
 ```bash
 git clone [https://github.com/Lyll42/e-commerce-sales-analysis.git](https://github.com/Lyll42/e-commerce-sales-analysis.git)
 cd e-commerce-sales-analysis
+```
 
-2. Configuración del Entorno Python
+### 2. Configuración del Entorno Python
 
 Se recomienda crear un entorno virtual para gestionar las dependencias.
 Bash
@@ -69,18 +70,19 @@ Bash
 python -m venv venv
 # En Windows:
 .\venv\Scripts\activate
-# En macOS/Linux:
+ # En macOS/Linux:
 source venv/bin/activate
 
 Instala las librerías necesarias:
-Bash
+```bash
 
 pip install -r requirements.txt
-
-3. Procesamiento de Datos con Jupyter Notebooks
+```
+#
+### 3. Procesamiento de Datos con Jupyter Notebooks
 
 Inicia Jupyter Notebook o JupyterLab desde la raíz del proyecto:
-Bash
+
 
 jupyter notebook
 
@@ -90,7 +92,7 @@ Una vez en el navegador:
     Abre y ejecuta secuencialmente todas las celdas de 01_data_cleaning.ipynb. Este notebook limpiará los datos brutos y guardará cleaned_amazon_products.csv en data/cleaned/.
     Abre y ejecuta secuencialmente todas las celdas de 02_sql_data_loading_and_exploration.ipynb. Este notebook cargará los datos limpios en amazon_productos.db (en la carpeta data/) y realizará el análisis exploratorio con consultas SQL.
 
-4. Configuración para Power BI (Conexión ODBC)
+### 4. Configuración para Power BI (Conexión ODBC)
 
 Power BI Desktop requiere un controlador ODBC para conectarse a bases de datos SQLite.
 
@@ -106,14 +108,14 @@ Power BI Desktop requiere un controlador ODBC para conectarse a bases de datos S
             Database Name: Haz clic en "Browse..." y selecciona el archivo amazon_productos.db que se encuentra en la carpeta data/ de tu proyecto.
         Haz clic en "OK".
 
-5. Explorar el Dashboard en Power BI Desktop
+### 5. Explorar el Dashboard en Power BI Desktop
 
     Abre Power BI Desktop.
     Ve a la carpeta dashboards/ de tu repositorio.
     Abre el archivo amazon_sales_dashboard.pbix.
     Si Power BI te pide credenciales o te muestra un error de conexión, asegúrate de que la DSN Amazon_Productos_DB esté correctamente configurada y que el archivo .db exista en la ruta especificada. Si te pide credenciales, selecciona "Anónimo" o "Predeterminado" ya que SQLite no usa usuarios/contraseñas.
 
-📈 Hallazgos y Conclusiones Clave
+## 📈 Hallazgos y Conclusiones Clave
 
 Basado en los resultados de tu análisis, escribe tus insights más importantes aquí.
 
@@ -125,7 +127,7 @@ Aquí tienes algunos ejemplos de hallazgos que podrías haber encontrado (ajusta
     Productos de Demanda Intrínseca: Se identificaron productos como [Menciona 1 o 2 ejemplos específicos del Top 10 sin descuento] que alcanzan alta popularidad sin depender de descuentos, indicando una demanda fuerte basada en su valor intrínseco o necesidad.
     Tendencias por Categoría: Las categorías varían ampliamente en estrategia de precios y potencial de popularidad. Por ejemplo, la categoría Electronics|Headphones,Earbuds&Accessories|Headphones muestra la mayor popularidad total a pesar de no ser la más grande por número de productos.
 
-🎯 Recomendaciones de Negocio
+## 🎯 Recomendaciones de Negocio
 
 Basado en tus hallazgos, formula recomendaciones accionables para una empresa.
 
@@ -134,7 +136,7 @@ Basado en tus hallazgos, formula recomendaciones accionables para una empresa.
     Análisis Categórico Continuo: Realizar análisis detallados por categoría para adaptar las estrategias de precios y descuentos a las particularidades de cada segmento de mercado.
     Identificar Oportunidades para Productos sin Descuento: Promocionar los productos con alta demanda intrínseca que no necesitan descuentos, ya que representan una fuente de ingresos estable y potencialmente más rentable.
 
-🔮 Futuras Mejoras
+## 🔮 Futuras Mejoras
 
     Integrar Datos de Ventas Reales: Si estuvieran disponibles, integrar datos de ventas transaccionales para una correlación más precisa con los descuentos y calificaciones.
     Análisis de Sentimiento de Reseñas: Utilizar Procesamiento de Lenguaje Natural (NLP) para analizar el contenido de review_content y review_title y obtener insights cualitativos sobre la satisfacción del cliente.
