@@ -20,7 +20,7 @@ El análisis busca responder a las siguientes preguntas clave de negocio:
 
 ## 🛠️ Tecnologías y Herramientas Utilizadas
 
-* **Python 3.x:** Lenguaje de programación principal para limpieza y orquestación de datos.
+* **Python 3.13.2:** Lenguaje de programación principal para limpieza y orquestación de datos.
     * `pandas`: Manipulación y análisis de datos.
     * `numpy`: Soporte para operaciones numéricas.
 * **Jupyter Notebook:** Entorno interactivo para el desarrollo, pruebas y documentación del análisis de datos.
