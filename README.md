@@ -146,4 +146,7 @@ Basado en tus hallazgos, formula recomendaciones accionables para una empresa.
 * **Modelado Predictivo:** Desarrollar modelos de Machine Learning para predecir la popularidad o el impacto en ventas de un producto basado en su precio, descuento y calificación inicial.
 * **Análisis de Competencia:** Integrar datos de la competencia para comparar estrategias de precios y rendimiento.
 
+## Preview
+[![unknown-2025-06-24-17-48.png](https://i.postimg.cc/9fCdY4vM/unknown-2025-06-24-17-48.png)](https://postimg.cc/9DgwWfX5)
+
 <!-- end list -->
